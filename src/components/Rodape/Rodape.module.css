@@ -1,0 +1,14 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+    height: 88px;
+}
+
+.rodape_texto {
+    color: var(--branco);
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
