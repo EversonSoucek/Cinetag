@@ -9,9 +9,7 @@ export default function Inicio() {
     return (
         <>
             <Banner imagem='home' />
-            <Titulo>
-                Um lugar para guardar seus vídeos e filmes!
-            </Titulo>
+            <Titulo>Um lugar para guardar seus vídeos e filmes! </Titulo>
             <section className={styles.container}>{videos.map((video) => (<Card {...video} key={video.id}></Card>))}</section>
         </>
 
