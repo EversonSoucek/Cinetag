@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function CabecalhoLink({children,url}) {
   return (
-    <Link to={url} className={styles.Link}>
+    <Link to={url} className={styles.link}>
         {children}
     </Link>
   )
